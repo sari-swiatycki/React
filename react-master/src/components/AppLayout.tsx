@@ -10,7 +10,7 @@ const AppLayout = () => {
 const [user, userDispatch] = useReducer(userReducer, {id:'', firstName: '', lastName: '', passward: '', email: '', address: '', phone: '' })  
     return (<>
     <CurrentContext value={{ currentUser: user, dispatch: userDispatch }}>
-                <NavBar />
+                <NavBar/>
                 <Outlet />
         </CurrentContext>
     </>)

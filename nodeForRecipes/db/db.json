@@ -135,6 +135,20 @@
       "id": 1738675666256,
       "firstName": "bar",
       "password": "123"
+    },
+    {
+      "id": 1738761860169,
+      "firstName": "",
+      "password": "",
+      "lastName": "",
+      "email": "",
+      "address": "",
+      "phone": ""
+    },
+    {
+      "id": 1738761893219,
+      "firstName": "tova",
+      "password": "123"
     }
   ],
   "recipes": [
